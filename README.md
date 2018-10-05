@@ -5,17 +5,15 @@ For this assignment you'll be creating a Javascript painting app. When you're do
 Use the starter code and commit each step of the exercise.
 ## Set up
 1. Fork and clone this repo.
-2. Checkout a new branch called '**YOUR-NAME**-solution'
-   > `$ git checkout -b` `<your-name-solution>`
-3. Work in small steps and commit frequently.
-4. When you're finished, push your solution branch to your fork (`git push -u origin <branch-name>`) and issue a **pull request**.
+2. Work in small steps and commit frequently.
+3. When you're finished, push your code back to GA Github and submit via the GA-Grader
 
 ### Commit 1
 
 * When I click the "Set Color" button, it should change the color of the "brush" box to the color I specify in the input field.
 * You can use `document.querySelector` (or another document method) to select the element, then add an event listener.
 
-> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". You can also reference [this portion](https://github.com/ga-wdi-lessons/js-events-callbacks#event-defaults-405---410-5-minutes) of the Events & Callbacks lesson plan.
+> **HINT:** You will notice that the page refreshes whenever you click the button. You need to prevent this from happening using a method you have not used before. Google "javascript event prevent default". 
 
 ### Commit 2
 
