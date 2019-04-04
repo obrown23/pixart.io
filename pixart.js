@@ -12,5 +12,9 @@ button.addEventListener('click', function(){
     let newDiv = document.createElement('div');
     newDiv.classList.add('square');
     document.body.appendChild(newDiv);
-newDiv.addEventListener('click', )
+newDiv.addEventListener('click', greeny) 
+    function greeny(){
+        newDiv.style.backgroundColor= 'green'
+    
+}
  }
