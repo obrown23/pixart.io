@@ -8,11 +8,11 @@ button.addEventListener('click', function(){
 })
 
 
- for(let i = 0; i < 20; i++){
+ for(let i = 0; i < 8000; i++){
     let newDiv = document.createElement('div');
     newDiv.classList.add('square');
     document.body.appendChild(newDiv);
-newDiv.addEventListener('click', greeny) 
+newDiv.addEventListener('mouseover', greeny) 
     function greeny(){
         newDiv.style.backgroundColor= 'green'
     
