@@ -12,5 +12,5 @@ button.addEventListener('click', function(){
     let newDiv = document.createElement('div');
     newDiv.classList.add('square');
     document.body.appendChild(newDiv);
-newDiv.addEventListen('click', )
+newDiv.addEventListene('click', )
  }
