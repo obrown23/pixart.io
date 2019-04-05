@@ -14,7 +14,7 @@ button.addEventListener('click', function(){
     document.body.appendChild(newDiv);
 newDiv.addEventListener('mouseover', greeny) 
     function greeny(){
-        newDiv.style.backgroundColor= 'green'
+        newDiv.style.backgroundColor= input.value
     
 }
  }
